@@ -2,7 +2,7 @@
 
 TAG="v0.0.0"
 cd commons
-go mod edit -replace github.com/bots-garden/capsule-registry@${TAG}=../
+go mod edit -replace github.com/bots-garden/capsule-ctl@${TAG}=../
 
 cd ..
 git add .
